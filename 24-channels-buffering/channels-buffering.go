@@ -3,7 +3,7 @@ package main
 // Por padrão, os "channels" não são armazenados em
 // "buffers", o que significa que eles só aceitarão
 // envios (chan <-) se houver recebimento correspondente
-// (chan <-) pronto para receber o valor enviado. os "channels"
+// (<- chan) pronto para receber o valor enviado. os "channels"
 // em "buffer" aceitam um número limitado de valores em um
 // receptor correspondente para eles.
 import "fmt"
